@@ -30,3 +30,17 @@
             </div>
         </div>
     </div>
+    <button class="btn btn-success" (click)='fetchRepos()'>see {{username}}'s Repos</button>
+    <div class="row">
+        <div class="col-md-4" *ngFor='let repo of repos;let i=index'>
+            <div class="card"  id="card">
+                <h5 class="card-header" id="head">{{repos[i].name}}</h5>
+                <div class="card-body">
+                    <h5 class="card-title">Created on:{{repos[i].created_at |date}}</h5>
+                    <p class="card-text">{{repos[i].description}}</p>
+                    <a href="{{repos[i].html_url}}" class="btn btn-primary">Go to repo</a>
+                </div>
+            </div>
+        </div>
+        <hr><hr>
+    </div>
