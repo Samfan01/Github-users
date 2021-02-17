@@ -35,6 +35,12 @@ export class UserComponent implements OnInit {
     this.gitService.getData(this.user.name).subscribe(data=>{
       this.profile = data;
     })
+  };
+  fetchRepos(): any {
+
+    this.gitService.getRepos(this.user.name).subscribe(data=>{
+      this.repos=data;
+    });
   }
 
 }
