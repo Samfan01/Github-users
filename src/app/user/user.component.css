@@ -1,7 +1,9 @@
 #name{
     text-align: center;
-    margin-top: 100px;
-    border: solid black 2px;
+    border: solid #000000 2px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+    background-color: white;
+
 }
 
 
