@@ -30,7 +30,7 @@
             </div>
         </div>
     </div>
-    <button class="btn btn-success" (click)='fetchRepos()'>see {{username}}'s Repos</button>
+    <button class="btn btn-success" (click)='fetchRepos()'>see {{user.name}}'s Repos</button>
     <div class="row">
         <div class="col-md-4" *ngFor='let repo of repos;let i=index'>
             <div class="card"  id="card">
