@@ -5,12 +5,16 @@ import {HttpClientModule} from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
-import {FormsModule} from '@angular/forms'
+import {FormsModule} from '@angular/forms';
+import { AboutComponent } from './about/about.component';
+import { NavbarComponent } from './navbar/navbar.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserComponent
+    UserComponent,
+    AboutComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
