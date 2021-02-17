@@ -2,3 +2,9 @@
     background-color:transparent;
     
 }
+#info{
+    text-align: center;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
