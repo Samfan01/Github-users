@@ -1,4 +1,17 @@
-# GithubUsers
+# Github-Users
+
+#### {THis is a page that fetches and displays github users info and their respective repos}, {Date of current version}
+ By **{Douglas Samphan}**
+## Description
+{This is a web Application that allows users to search and view github repositories.
+## Setup/Installation Requirements
+* This webpage is not to be installed.
+## Known Bugs
+{}
+## Technologies Used
+{The Mark up language used is HTML which is styled by Css and Javascript/Typescript with Angular as a framework}
+## Support and contact details
+{Reach the creater of the web page for any questions or comments through dsamfan@gmail.com}
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
 
