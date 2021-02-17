@@ -1,1 +1,32 @@
-<p>user works!</p>
+<div class="container">
+    <nav class="navbar  navbar-dark bg-dark">
+        <a class="navbar-brand">Git-Users</a>
+        <form #userForm='ngForm'>
+            <input class="form-control me-2" type="text" placeholder="Search" id="name" [(ngModel)]='user.name'
+                name="name" (ngModelChange)="getUsers()">
+        </form>
+    </nav>
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{profile?.avatar_url}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Official name: {{profile?.name}}</h5>
+                        <p class="card-text">From:{{profile?.location}}</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8" id="name">
+                <h1>Username:{{profile?.login}}</h1>
+
+                <h1>Followers:{{profile?.followers}}</h1>
+
+                <h1>Following:{{profile?.following}}</h1>
+
+                <h1>No. of Repos:{{profile?.public_repos}}</h1>
+
+            </div>
+        </div>
+    </div>
