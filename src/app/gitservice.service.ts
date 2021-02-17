@@ -12,8 +12,15 @@ export class GitserviceService {
   getData(username: any){
     return this.http.get(`https://api.github.com/users/${username}`);
   }
+
+ 
   getRepos(username: any){
-    return this.http.get(`https://api.github.com/users/${username}/repos`);
+    interface ApiResponse{
+      name:string;
+      description:string;
+      created_at:Date
+    }
+    return this.http.get<ApiResponse>(`https://api.github.com/users/${username}/repos`);
   }
 
 }

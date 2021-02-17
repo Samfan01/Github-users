@@ -36,7 +36,7 @@
             <div class="card"  id="card">
                 <h5 class="card-header" id="head">{{repos[i].name}}</h5>
                 <div class="card-body">
-                    <h5 class="card-title">Created on:{{repos[i].created_at |date}}</h5>
+                    <h5 class="card-title">Created on:{{repos[i].created_at |date|period}}</h5>
                     <p class="card-text">{{repos[i].description}}</p>
                     <a href="{{repos[i].html_url}}" class="btn btn-primary">Go to repo</a>
                 </div>

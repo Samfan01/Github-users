@@ -37,6 +37,8 @@ export class UserComponent implements OnInit {
     })
   };
   fetchRepos(): any {
+   
+
 
     this.gitService.getRepos(this.user.name).subscribe(data=>{
       this.repos=data;
