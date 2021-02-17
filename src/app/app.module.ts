@@ -8,7 +8,8 @@ import { UserComponent } from './user/user.component';
 import {FormsModule} from '@angular/forms';
 import { AboutComponent } from './about/about.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { NotFoundComponent } from './not-found/not-found.component'
+import { NotFoundComponent } from './not-found/not-found.component';
+import { PeriodPipe } from './period.pipe'
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NotFoundComponent } from './not-found/not-found.component'
     UserComponent,
     AboutComponent,
     NavbarComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    PeriodPipe
   ],
   imports: [
     BrowserModule,
