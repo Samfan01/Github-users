@@ -11,7 +11,7 @@ import {GitserviceService} from '../gitservice.service'
 })
 export class UserComponent implements OnInit {
   
-  user =new User('Samfan01','',0)
+  user = new User('Samfan01','',0)
   username = User.name
 
   repos: any = [];

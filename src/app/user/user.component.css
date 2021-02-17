@@ -1,0 +1,17 @@
+#name{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+#head{
+    background-color: gray;
+    font-size: large;
+    font-weight: bolder;
+   }
+   #card{
+       padding-bottom: 15px;
+       border:2px solid black;  
+       height: 20%;
+       color: whitesmoke;    
+   }

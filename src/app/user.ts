@@ -1,4 +1,5 @@
 export class User {
+    name:any
     constructor(
         public login?:string,
         public avatar_url?:string,
